@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+header{
+    text-align: end;
+    padding: 2em;
+    width: 100%;
+    background-color: white;
+}
+header h3{
+    color: black;
+    border: 10px solid darkgray;
+    display: inline;
+    border-radius: 45px;
+    padding: 0.3em;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container1{
+    background-color: #790f0f;
+    padding: 4em 2em 2em 2em;
+}
+
+.container1 h1{
+    color: white;
+    font-size: 2,5rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.container1 p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 2em 0;
+}
+
+.container1 p span{
+    color: orange;
+}
+.contact-container {
+    line-height: 2.5;
+    padding: 4em;
+}
+.hw{
+    display: flex;
+    gap: 5em;
+}
+input{
+    width: 100%;
+}
+.td input{
+    width: 100%;
+}
+.co{
+   
+}
+.co ol{
+    list-style-type: disc;
+    color: red;
+}
+.co span{
+    color: red;
+}
+.co1{
+    display: flex;
+    gap: 2em;
+}
+.co2{
+    display: flex;
+    gap: 2em;
+}
+.co3{
+    text-align: center;
+}
+.c04{
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+}
+.c04 a{
+    text-decoration: none;
+    color: white;
+}
+    
+
+
+@media only screen and (max-width:834px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (max-width:480px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+    }
+    .container1{
+        display: none;
+       
+    }
+    .container2{
+        padding: 2em 2em 0;
+    }
+
+
+}
